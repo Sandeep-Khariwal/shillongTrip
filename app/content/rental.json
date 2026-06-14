@@ -1,0 +1,28 @@
+[
+  {
+    "id": "shillong-rides",
+    "name": "Shillong Rides",
+    "type": "Scooter & Bike Rental",
+    "location": "Police Bazar, Shillong",
+    "contact": "+91-98631-00001",
+    "priceRange": "₹350 – ₹600/day (scooter), ₹700 – ₹1,200/day (bike)",
+    "vehicles": ["Honda Activa", "TVS Jupiter", "Royal Enfield Himalayan", "KTM Duke 200"],
+    "documents": ["Valid Driving License", "Aadhar Card / Passport", "Security Deposit ₹2,000"],
+    "pickup": "Police Bazar (near Don Bosco Museum)",
+    "rating": 4.6,
+    "note": "Helmets provided free. 24/7 roadside assistance. GPS tracker on all vehicles."
+  },
+  {
+    "id": "meghalaya-movers",
+    "name": "Meghalaya Movers",
+    "type": "Scooter Rental",
+    "location": "GS Road, Shillong",
+    "contact": "+91-94361-00002",
+    "priceRange": "₹300 – ₹500/day (scooter)",
+    "vehicles": ["Honda Dio", "TVS Ntorq", "Yamaha Fascino"],
+    "documents": ["Valid Driving License", "Any Government ID", "Security Deposit ₹1,500"],
+    "pickup": "GS Road (near Dhankheti)",
+    "rating": 4.4,
+    "note": "Best rates in the city. Flexible hourly packages also available."
+  }
+]

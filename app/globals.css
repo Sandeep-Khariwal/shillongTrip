@@ -1,4 +1,26 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --teal: #0F766E;
+    --blue-deep: #1E3A8A;
+    --amber: #F59E0B;
+    --bg: #F8FAFC;
+    --text: #0F172A;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  h1, h2, h3 { font-family: var(--font-playfair), serif; }
+
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
 
 :root {
   --background: #ffffff;
