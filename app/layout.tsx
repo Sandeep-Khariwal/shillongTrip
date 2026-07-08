@@ -33,9 +33,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
-      <head>
-        <meta name='google-site-verification' content='googlea65616968cfca761.html' />
-      </head>
+  
       <body className="font-sans bg-slate-50 text-slate-900 antialiased">
         <Navbar />
         <main className="min-h-screen pt-16">{children}</main>
